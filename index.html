@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Premium motorcycles: models, specs, gallery, and contact." />
+	<title>IKatulo Motorcycles</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🏍️</text></svg>">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a href="#" class="logo" aria-label="IKatulo Home">IKatulo<span>Motorcycles</span></a>
+
+			<input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+			<label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+				<span></span>
+			</label>
+
+			<nav class="site-nav">
+				<a href="#models">Models</a>
+				<a href="#features">Features</a>
+				<a href="#gallery">Gallery</a>
+				<a href="#specs">Specs</a>
+				<a href="#contact" class="btn btn-primary">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<section class="hero">
+		<picture>
+			<source media="(min-width: 1024px)" srcset="https://images.unsplash.com/photo-1511735111819-9a3f7709049c?q=80&w=1920&auto=format&fit=crop" />
+			<source media="(min-width: 640px)" srcset="https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=1400&auto=format&fit=crop" />
+			<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1400&auto=format&fit=crop" alt="Sport motorcycle on a mountain road" />
+		</picture>
+		<div class="container hero-content">
+			<h1>Ride Beyond Limits</h1>
+			<p>Precision engineering meets fearless design. Discover the next generation of performance motorcycles.</p>
+			<div class="hero-cta">
+				<a href="#models" class="btn btn-primary">Explore Models</a>
+				<a href="#gallery" class="btn btn-ghost">View Gallery</a>
+			</div>
+		</div>
+	</section>
+
+	<section id="models" class="section models">
+		<div class="container">
+			<header class="section-header">
+				<h2>Featured Models</h2>
+				<p>Select your style: agile streetfighters, track-ready superbikes, and long-range tourers.</p>
+			</header>
+			<div class="card-grid">
+				<article class="card">
+					<img src="https://images.unsplash.com/photo-1518558400948-69fce265cf88?q=80&w=1200&auto=format&fit=crop" alt="Aggressive red streetfighter motorcycle" />
+					<div class="card-body">
+						<h3>SF900 Streetfighter</h3>
+						<ul class="meta">
+							<li>113 kW / 151 hp</li>
+							<li>186 kg dry</li>
+							<li>IMU Cornering ABS</li>
+						</ul>
+						<a href="#specs" class="card-link">View Specs</a>
+					</div>
+				</article>
+				<article class="card">
+					<img src="https://images.unsplash.com/photo-1493236296276-d17357e28824?q=80&w=1200&auto=format&fit=crop" alt="Blue superbike leaned over on track" />
+					<div class="card-body">
+						<h3>RB1000 Superbike</h3>
+						<ul class="meta">
+							<li>150 kW / 201 hp</li>
+							<li>Quickshifter + Autoblipper</li>
+							<li>Advanced Aero Package</li>
+						</ul>
+						<a href="#specs" class="card-link">View Specs</a>
+					</div>
+				</article>
+				<article class="card">
+					<img src="https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?q=80&w=1200&auto=format&fit=crop" alt="Black touring motorcycle parked near the coast" />
+					<div class="card-body">
+						<h3>TG1200 Tourer</h3>
+						<ul class="meta">
+							<li>30 L Fuel Tank</li>
+							<li>Heated Grips & Seats</li>
+							<li>Adaptive Cruise Control</li>
+						</ul>
+						<a href="#specs" class="card-link">View Specs</a>
+					</div>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<section id="features" class="section features">
+		<div class="container">
+			<header class="section-header">
+				<h2>Engineering Highlights</h2>
+				<p>Built for performance, tuned for real-world riding.</p>
+			</header>
+			<div class="feature-grid">
+				<div class="feature">
+					<div class="icon" aria-hidden="true">⚙️</div>
+					<h3>Lightweight Chassis</h3>
+					<p>Aluminum twin-spar frame with optimized rigidity and reduced mass for precise handling.</p>
+				</div>
+				<div class="feature">
+					<div class="icon" aria-hidden="true">🧠</div>
+					<h3>Smart Rider Aids</h3>
+					<p>Six-axis IMU powers traction, wheelie, and slide control. Multiple ride modes adapt to any condition.</p>
+				</div>
+				<div class="feature">
+					<div class="icon" aria-hidden="true">🛑</div>
+					<h3>Braking Confidence</h3>
+					<p>Brembo calipers, large twin rotors, and cornering ABS deliver consistent stopping power.</p>
+				</div>
+				<div class="feature">
+					<div class="icon" aria-hidden="true">🌧️</div>
+					<h3>All-Weather Pack</h3>
+					<p>Heated grips, seat, and touring screen keep you comfortable mile after mile.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="gallery" class="section gallery">
+		<div class="container">
+			<header class="section-header">
+				<h2>Gallery</h2>
+				<p>Real machines. Real roads.</p>
+			</header>
+			<div class="masonry">
+				<img src="https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=800&auto=format&fit=crop" alt="Motorcycle in the desert" />
+				<img src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?q=80&w=800&auto=format&fit=crop" alt="City night ride" />
+				<img src="https://images.unsplash.com/photo-1518558400948-69fce265cf88?q=80&w=800&auto=format&fit=crop" alt="Red naked bike close-up" />
+				<img src="https://images.unsplash.com/photo-1493236296276-d17357e28824?q=80&w=800&auto=format&fit=crop" alt="Blue sportbike on track" />
+				<img src="https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?q=80&w=800&auto=format&fit=crop" alt="Touring bike by the sea" />
+				<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=800&auto=format&fit=crop" alt="Mountain twisties" />
+			</div>
+		</div>
+	</section>
+
+	<section id="specs" class="section specs">
+		<div class="container">
+			<header class="section-header">
+				<h2>Key Specifications</h2>
+				<p>Performance that inspires confidence.</p>
+			</header>
+			<div class="specs-grid">
+				<div class="spec">
+					<h4>Engine</h4>
+					<ul>
+						<li>998 cc inline-4 (RB1000)</li>
+						<li>937 cc V2 (SF900)</li>
+						<li>1198 cc inline-3 (TG1200)</li>
+					</ul>
+				</div>
+				<div class="spec">
+					<h4>Electronics</h4>
+					<ul>
+						<li>Ride-by-wire throttle</li>
+						<li>Cornering ABS, TC, WC</li>
+						<li>Launch control (RB1000)</li>
+					</ul>
+				</div>
+				<div class="spec">
+					<h4>Chassis</h4>
+					<ul>
+						<li>Fully adjustable suspension</li>
+						<li>Aluminum twin-spar frame</li>
+						<li>Single-sided swingarm (SF900)</li>
+					</ul>
+				</div>
+				<div class="spec">
+					<h4>Wheels & Tires</h4>
+					<ul>
+						<li>17" forged aluminum wheels</li>
+						<li>Sport-compound radial tires</li>
+						<li>TPMS (Touring pack)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="section contact">
+		<div class="container contact-inner">
+			<div class="contact-copy">
+				<h2>Get In Touch</h2>
+				<p>Questions, dealership info, or a test ride? Send us a message and we’ll get back to you.</p>
+				<ul class="contact-meta">
+					<li>Email: hello@ikatulo.example</li>
+					<li>Phone: +1 (555) 012-3456</li>
+					<li>Hours: Mon–Sat 9:00–18:00</li>
+				</ul>
+			</div>
+			<form class="contact-form" action="#" method="post" onsubmit="return false" novalidate>
+				<label>
+					<span>Name</span>
+					<input type="text" name="name" placeholder="Your name" required />
+				</label>
+				<label>
+					<span>Email</span>
+					<input type="email" name="email" placeholder="name@example.com" required />
+				</label>
+				<label class="full">
+					<span>Message</span>
+					<textarea name="message" placeholder="How can we help?" rows="5" required></textarea>
+				</label>
+				<button class="btn btn-primary" type="submit">Send Message</button>
+			</form>
+		</div>
+	</section>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<p>© <span id="year"></span> IKatulo Motorcycles. All rights reserved.</p>
+			<nav class="footer-nav">
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Support</a>
+			</nav>
+		</div>
+	</footer>
+
+	<script>
+		document.getElementById('year').textContent = new Date().getFullYear();
+	</script>
+</body>
+</html> 
